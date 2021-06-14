@@ -232,3 +232,27 @@ ul li{
     margin: 0 60px;
 	left: 200px;
 }
+
+
+.img_all{
+
+}
+
+.img_all2{
+	position: relative;
+	height: 800px;
+	width: 1250px;
+	margin: 0 auto;
+}
+
+.img1{
+	width: 610px;
+	position: absolute;
+}
+
+
+.img2{
+	left: 640px;
+	width: 610px; 
+	position: absolute; 
+}
