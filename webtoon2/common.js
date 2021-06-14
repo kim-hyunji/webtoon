@@ -62,7 +62,7 @@ demo.init = function() {
 		
 		// 
 		const gui = new dat.GUI();
-		gui.add(demo, 'speed', 0.2, 2);
+		gui.add(demo, 'speed', 0.7, 2);
 		
 		// fade out instructions after a few seconds
 		var instructions = document.getElementById('instructions');
