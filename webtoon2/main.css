@@ -8,7 +8,7 @@ html, body, canvas, #instructions {
 
 body {
     margin: 0;
-    height: 3200px;
+    height: 3700px;
     overflow-x: hidden;
 
 /* background: -moz-linear-gradient(top,  rgba(8,13,40,1) 0%, rgba(38,19,0,1) 100%); FF3.6-15 
@@ -124,10 +124,14 @@ ul li{
 }
 
 .home_header h1{
+	/* border: 1px solid red; */
 	vertical-align: top;
 	display: inline-block;
 	color: white;
-	margin-left: 400px;
+	position: absolute;
+	left: 50%; transform: translateX(-50%);
+	/* margin: 0 auto; */
+	/* margin-left: 400px; */
 	font-weight: 700;
 	font-size: 30px;
 	font-family: 'NanumSquare', sans-serif;
@@ -169,7 +173,7 @@ ul li{
 	position: absolute;
 	z-index: 999;
 	/* margin-top: 2800px; */
-	top: 2900px;
+	margin-top: 1600px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 560px;
@@ -235,11 +239,12 @@ ul li{
 
 
 .img_all{
-
+	margin-top: 800px;
 }
 
 .img_all2{
 	position: relative;
+	/* margin-top: 400px; */
 	height: 800px;
 	width: 1250px;
 	margin: 0 auto;
