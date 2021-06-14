@@ -43,7 +43,7 @@ $(document).ready(function(){ $('.bxslider').bxSlider({
                     $('.bx-next').stop().click(function(){
                         // alert('마지막 페이지입니다. 다음 화로 넘어가시겠습니까?');
                         // window.location = '../main.html';
-                        if (window.confirm('마지막 페이지입니다. 다음 화로 넘어가시겠습니까?'))
+                        if (window.confirm('마지막 페이지입니다'))
                         { window.location = '../main.html'}
                         else
                         {return false}
